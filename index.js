@@ -2,7 +2,6 @@ var readlineSync = require('readline-sync')
 
 var score = 0
 
-
 var questions = [{ question: '1. What is my stage name? ', answer: 'acoustic om' },
 { question: '2. Which is my native state? ', answer: 'karnataka' },
 { question: "3. From which school i completed my schooling? ", answer: 'KV' },
@@ -17,7 +16,6 @@ function welcome() {
   console.log("")
 }
 welcome();
-
 
 function play(question, answer) {
   var userAnswer = readlineSync.question(question)
