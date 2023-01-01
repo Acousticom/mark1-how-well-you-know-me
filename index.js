@@ -1,6 +1,6 @@
-var readlineSync = require('readline-sync')
+var readlineSync = require('readline-sync');
 
-var score = 0
+var score = 0;
 
 var questions = [{ question: '1. What is my stage name? ', answer: 'acoustic om' },
 { question: '2. Which is my native state? ', answer: 'karnataka' },
