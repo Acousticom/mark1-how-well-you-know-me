@@ -13,7 +13,7 @@ function welcome() {
   let userName = readlineSync.question("Please enter your name : ")
   console.log(`**** Welcome to the game ${userName}.****`)
   console.log('Lets see how much you know Omkar')
-  console.log("")
+  console.log("");
 }
 welcome();
 
@@ -22,11 +22,11 @@ function play(question, answer) {
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
     console.log("You are right")
     score = score + 1
-    console.log(`Score: ${score}`)
+    console.log(`Score: ${score}`);
   }
   else {
     console.log("Sorry you are wrong")
-    console.log(`Score: ${score}`)
+    console.log(`Score: ${score}`);
   }
 }
 
